@@ -38,6 +38,11 @@ None of this replaces a therapist. It is a sidecar to one: it makes the professi
 and it fills the long gaps between appointments that access to care leaves. See
 [SCOPE.md](SCOPE.md) for where the line is drawn.
 
+**New to this? Start with the [Playbook](PLAYBOOK.md):** the moving parts of an AI setup for
+this kind of work (context, transcription, your own storage, model, knowledge, memory, system
+prompt, connectors), how to avoid platform lock-in, and five pathways from a Grok bot to a full
+agent scaffold.
+
 ---
 
 ## Practical tooling
@@ -92,7 +97,7 @@ on the same foundations:
 | **Tool connections** | Access to where your material lives: Google Drive above all, plus mail and calendars | Drive or a git repository as the store; the agent reads and writes there |
 | **Workloads** | The jobs themselves | Recording (voice notes in, transcribed and filed), documenting, analysis of patterns, preparing intake material |
 
-To adapt: load the template's agent instructions as the system prompt or project instructions,
+The [Playbook](PLAYBOOK.md) walks through this step by step. In short: load the template's agent instructions as the system prompt or project instructions,
 put the store in Drive or a connected repository, and give the agent the tool connections it
 needs. Voice capture works anywhere: record a long voice note, transcribe it, and file the
 transcript as source material.
