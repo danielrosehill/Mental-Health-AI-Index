@@ -4,13 +4,15 @@ What belongs in this index, what doesn't, and where the neighbouring ones start.
 
 ## In scope
 
-Claude Code tooling — templates, plugins, workspaces, skills — for **mental health work a person
-does on their own material**:
+AI tooling on any platform (agent plugins, workspace templates, skills, assistant
+configurations and system prompts, datasets of them) for **mental health work a person does on
+their own material**:
 
 - Working through a bounded personal issue in writing
 - Organising and tracking an ongoing course of therapy
 - Preparing for an appointment with a professional
 - Structuring reflection: journals, voice memos, chronologies, patterns over time
+- Mapping the family or relational system the person lives in
 - The background context layer that lets scoped workspaces work without repetition
 
 The common test: *does it help a person organise their own experience, in files they keep?*

@@ -1,18 +1,22 @@
-# Claude Mental Health Templates Index
+# Mental Health AI Index
 
 [![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Start-Here)
 
 [![Index Repo](https://img.shields.io/badge/Type-Index_Repo-purple?style=flat-square)](https://github.com/danielrosehill/Subindices)
 
-[![Claude Code Index](https://img.shields.io/badge/Parent-Claude_Code_Projects_Index-orange?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Code-Projects-Index)
-
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg?style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 
-Claude Code templates, plugins and workspaces for **mental health work that a person does on
-their own material** — organising what happened, tracking a course of therapy, preparing for an
-appointment, and keeping the background context that makes any of it repeatable.
+AI tools, on any platform, for **mental health work that a person does on their own material**:
+organising what happened, mapping a difficult family, tracking a course of therapy, preparing for
+an appointment, and keeping the background context that makes any of it repeatable. Agent
+plugins and workspace templates, assistant configurations for chat frontends, datasets.
 
-A subindex of the [Claude Code Projects Index](https://github.com/danielrosehill/Claude-Code-Projects-Index).
+Formerly `Claude-Mental-Health-Templates-Index` (renamed 2026-11-13 when it widened beyond
+Claude Code; the old URL redirects). Claude Code entries also appear in the
+[Claude Code Projects Index](https://github.com/danielrosehill/Claude-Code-Projects-Index).
+
+Platform key: **CC** Claude Code (plugin or workspace; markdown, readable by other agents
+too) · **Any** system prompts for any chat frontend (ChatGPT, Grok, Open WebUI and others).
 
 **None of this is therapy, and none of it is clinical software.** Nothing here diagnoses,
 assesses, scores or treats. What these tools do is organise, remember, write down and prepare —
@@ -28,7 +32,7 @@ Where the actual thinking happens.
 
 | Project | Description | Links |
 |---------|-------------|-------|
-| **Claude-Therapy-Workspace-Template** | A GitHub template for working through **one bounded issue** — a career situation, one relationship, a bereavement. One workspace, one issue, with an ending. Ten workspace-local skills: capture a session, unpack an incident, build a chronology from raw material, re-read it through other lenses, review what recurs, draft the hard message, and produce a two-page handover for an appointment. `for-therapist/` is the deliverable the rest feeds | [![View Repository](https://img.shields.io/badge/View-Repository-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Therapy-Workspace-Template) |
+| **Claude-Therapy-Workspace-Template** (CC) | A GitHub template for working through **one bounded issue** — a career situation, one relationship, a bereavement. One workspace, one issue, with an ending. Ten workspace-local skills: capture a session, unpack an incident, build a chronology from raw material, re-read it through other lenses, review what recurs, draft the hard message, and produce a two-page handover for an appointment. `for-therapist/` is the deliverable the rest feeds | [![View Repository](https://img.shields.io/badge/View-Repository-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Therapy-Workspace-Template) |
 
 ## Mapping a family system
 
@@ -37,8 +41,8 @@ that therapy workspaces and other tools can read.
 
 | Project | Description | Links |
 |---------|-------------|-------|
-| **Family-Systems-Context-Plugin** | Maps a toxic family system as persistent context: one linked markdown file per person, roles and dynamics described through family-systems research (Bowen, Minuchin, genograms, parentification, DARVO) with evidence tiers, a glossary mapping informal abuse-recovery terms ("flying monkeys", "hoovering") to research constructs, a printable relationship diagram, a therapy intake-pack PDF, voice-note ingest, alias mappings for names that are hard to see, and an optional vector-store mirror. The user's account is the record; describes, doesn't diagnose | [![View Repository](https://img.shields.io/badge/View-Repository-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Family-Systems-Context-Plugin) |
-| **Family-System-Context-Template** | The private-workspace template the plugin creates from, self-running with the plugin uninstalled | [![View Repository](https://img.shields.io/badge/View-Repository-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Family-System-Context-Template) |
+| **Family-Systems-Context-Plugin** (CC) | Maps a toxic family system as persistent context: one linked markdown file per person, roles and dynamics described through family-systems research (Bowen, Minuchin, genograms, parentification, DARVO) with evidence tiers, a glossary mapping informal abuse-recovery terms ("flying monkeys", "hoovering") to research constructs, a printable relationship diagram, a therapy intake-pack PDF, voice-note ingest, alias mappings for names that are hard to see, and an optional vector-store mirror. The user's account is the record; describes, doesn't diagnose | [![View Repository](https://img.shields.io/badge/View-Repository-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Family-Systems-Context-Plugin) |
+| **Family-System-Context-Template** (CC, agent-agnostic) | The private-workspace template the plugin creates from. Plain markdown with an `AGENTS.md`, so it runs with the plugin uninstalled and can be followed by other agents | [![View Repository](https://img.shields.io/badge/View-Repository-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Family-System-Context-Template) |
 
 ## The context layer
 
@@ -46,7 +50,7 @@ Issue-scoped workspaces only work if you aren't re-explaining your life at the t
 
 | Project | Description | Links |
 |---------|-------------|-------|
-| **Claude-Personal-Context-Plugin** | Builds and maintains a persistent background context layer — intake interview, ingestion of material you already have (journals, exports, old notes), gap analysis, scoped retrieval, maintenance and export. Ships the **Portable Context Contract**: entry schema, scopes, sensitivity levels, read/write protocols, backends and an export conformance test. Plain markdown in a store you own; model-managed memory is prohibited by the spec | [![View Repository](https://img.shields.io/badge/View-Repository-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Personal-Context-Plugin) |
+| **Claude-Personal-Context-Plugin** (CC) | Builds and maintains a persistent background context layer — intake interview, ingestion of material you already have (journals, exports, old notes), gap analysis, scoped retrieval, maintenance and export. Ships the **Portable Context Contract**: entry schema, scopes, sensitivity levels, read/write protocols, backends and an export conformance test. Plain markdown in a store you own; model-managed memory is prohibited by the spec | [![View Repository](https://img.shields.io/badge/View-Repository-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Personal-Context-Plugin) |
 
 ## Tracking an ongoing course of therapy
 
@@ -54,8 +58,16 @@ The administrative half — you are in therapy, and the tooling keeps the paperw
 
 | Project | Description | Links |
 |---------|-------------|-------|
-| **Therapy-Tracking-Plugin** | Pre- and post-session notes, goal tracking, and turning voice-memo transcripts into structured problem summaries, across an ongoing course of therapy. Data lives outside the plugin so it survives updates; git mode defaults to local-only and the onboarding skill never suggests a public repo | [![View Repository](https://img.shields.io/badge/View-Repository-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Therapy-Tracking-Plugin) |
-| **Claude-Personal-Planning-Plugin** | General personal-planning workspaces — `log-entry` / `set-goal` / `review-progress` primitives across diary, health-wellness, personal-dev and therapy variants. The broad tool the two above are specialisations of | [![View Repository](https://img.shields.io/badge/View-Repository-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Personal-Planning-Plugin) |
+| **Therapy-Tracking-Plugin** (CC) | Pre- and post-session notes, goal tracking, and turning voice-memo transcripts into structured problem summaries, across an ongoing course of therapy. Data lives outside the plugin so it survives updates; git mode defaults to local-only and the onboarding skill never suggests a public repo | [![View Repository](https://img.shields.io/badge/View-Repository-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Therapy-Tracking-Plugin) |
+| **Claude-Personal-Planning-Plugin** (CC) | General personal-planning workspaces — `log-entry` / `set-goal` / `review-progress` primitives across diary, health-wellness, personal-dev and therapy variants. The broad tool the two above are specialisations of | [![View Repository](https://img.shields.io/badge/View-Repository-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Personal-Planning-Plugin) |
+
+## Assistant configurations (any platform)
+
+System prompts to set up as assistants in whichever chat frontend you use.
+
+| Project | Description | Links |
+|---------|-------------|-------|
+| **Narcissistic-Abuse-Support-Configs** (Any) | A network of assistant configurations for people affected by relationships with personality-disordered individuals, in eleven groups: documentation (therapy prep and take-home notes), education, ethics, family navigation, harm mitigation (boundaries, safety planning), identification (gaslighting and manipulation spotting), recovery, roleplay practice, strategy and support, plus an orchestrator. Each file is a ready system prompt with implementation notes; framed as an adjunct to professional care | [![View Dataset](https://img.shields.io/badge/View-Dataset-yellow?style=flat-square&logo=huggingface)](https://huggingface.co/datasets/danielrosehill/Narcissistic-Abuse-Support-Configs) |
 
 ---
 
