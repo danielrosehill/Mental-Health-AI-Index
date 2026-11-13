@@ -18,7 +18,7 @@ A subindex of the [Claude Code Projects Index](https://github.com/danielrosehill
 assesses, scores or treats. What these tools do is organise, remember, write down and prepare —
 see [SCOPE.md](SCOPE.md) for the boundary and why it is drawn where it is.
 
-**Last Updated:** August 2026
+**Last Updated:** November 2026
 
 ---
 
@@ -29,6 +29,16 @@ Where the actual thinking happens.
 | Project | Description | Links |
 |---------|-------------|-------|
 | **Claude-Therapy-Workspace-Template** | A GitHub template for working through **one bounded issue** — a career situation, one relationship, a bereavement. One workspace, one issue, with an ending. Ten workspace-local skills: capture a session, unpack an incident, build a chronology from raw material, re-read it through other lenses, review what recurs, draft the hard message, and produce a two-page handover for an appointment. `for-therapist/` is the deliverable the rest feeds | [![View Repository](https://img.shields.io/badge/View-Repository-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Claude-Therapy-Workspace-Template) |
+
+## Mapping a family system
+
+For people working out of a toxic or abusive family: the family as a persistent, structured map
+that therapy workspaces and other tools can read.
+
+| Project | Description | Links |
+|---------|-------------|-------|
+| **Family-Systems-Context-Plugin** | Maps a toxic family system as persistent context: one linked markdown file per person, roles and dynamics described through family-systems research (Bowen, Minuchin, genograms, parentification, DARVO) with evidence tiers, a glossary mapping informal abuse-recovery terms ("flying monkeys", "hoovering") to research constructs, a printable relationship diagram, a therapy intake-pack PDF, voice-note ingest, alias mappings for names that are hard to see, and an optional vector-store mirror. The user's account is the record; describes, doesn't diagnose | [![View Repository](https://img.shields.io/badge/View-Repository-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Family-Systems-Context-Plugin) |
+| **Family-System-Context-Template** | The private-workspace template the plugin creates from, self-running with the plugin uninstalled | [![View Repository](https://img.shields.io/badge/View-Repository-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Family-System-Context-Template) |
 
 ## The context layer
 
@@ -75,6 +85,7 @@ Choosing between them:
 - **In therapy and want the sessions tracked?** → Therapy-Tracking-Plugin.
 - **Want general journaling and goals?** → Personal-Planning-Plugin.
 - **Tired of re-explaining yourself?** → Personal-Context-Plugin. Everything else reads it.
+- **Is the family itself the tangle?** → Family-Systems-Context-Plugin: map it once, keep it current, hand the diagram and intake pack to a therapist.
 
 ## Common thread
 
