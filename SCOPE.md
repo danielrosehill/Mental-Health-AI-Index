@@ -13,6 +13,8 @@ their own material**:
 - Preparing for an appointment with a professional
 - Structuring reflection: journals, voice memos, chronologies, patterns over time
 - Mapping the family or relational system the person lives in
+- Research, case records and policy work on access to mental health care
+- Ideas and experiments in these areas, marked as such
 - The background context layer that lets scoped workspaces work without repetition
 
 The common test: *does it help a person organise their own experience, in files they keep?*
@@ -21,7 +23,6 @@ The common test: *does it help a person organise their own experience, in files 
 
 | Not here | Where |
 | --- | --- |
-| Health-access, medication-access and policy work | [AI-Assisted-Policymaking-Index](https://github.com/danielrosehill/AI-Assisted-Policymaking-Index) |
 | Physical health tracking, medical records, care logs | Personal-admin repos; not indexed publicly |
 | General journaling and life planning with no mental health framing | [Claude-Code-Projects-Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) |
 | Other people's mental health AI tools | A `*-Resources` repo, per the [Subindices](https://github.com/danielrosehill/Subindices) convention: `*-Index` repos index my own projects |
